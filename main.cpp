@@ -9,6 +9,7 @@ int main()
 {
     int t[10]={15,2,5,7,9,13,15,21,4,6};
     int db=10;
+    // text
     int mini = t[0];
     int maxi = t[0];
     for (int i=0;i<10;i++)
