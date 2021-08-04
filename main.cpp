@@ -43,9 +43,18 @@ void test3()
     assert(missing == 6);
 }
 
+void test4()
+{
+    vector<int> numbers {3, 1, 6, 4, 2};
+    int missing = findMissing(numbers);
+
+    assert(missing == 5);
+}
+
 int main()
 {
     test1();
     test2();
     test3();
+    test4();
 }
